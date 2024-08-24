@@ -1,107 +1,71 @@
 {
     "name": "The Dank Den2",
     "description": "My discord servers personal mod :)",
-    "developer":
-    {
+    "developer": {
         "name": "M3llo"
     },
-    "icons":
-    {
+    "icons": {
         "512": "Den_512.png"
     },
     "manifest_version": 3,
-    "mod":
-    {
+    "mod": {
         "license": "license.txt",
-        "payload":
-        {
-			"background_music":
-            [
-                "music/BACKGROUNDMUSIC1.mp3",
-			],
-			
-			
-			
-			"browser_sounds":
-			{
-				"CLICK":
-                [
+        "payload": {
+            "background_music": [
+                "sound/BACKGROUNDMUSIC1.mp3"
+            ],
+            "browser_sounds": {
+                "CLICK": [
                     "sound/CLICK.mp3"
                 ]
-			},
-			
-			
-			
-			"keyboard_sounds":
-            {
-                "TYPING_BACKSPACE":
-                [
-                    "keyboard/BACKSPACE.mp3"
-                ],
-			
-			},
-            "shaders":
-            {
-                "Wave":
-                {
-                    "animation":
-                    {
+            },
+            "keyboard_sounds": {
+                "TYPING_BACKSPACE": [
+                    "sound/BACKSPACE.mp3"
+                ]
+            },
+            "shaders": {
+                "Wave": {
+                    "animation": {
                         "duration": 60,
                         "steps": 3600
                     },
                     "path": "shader/wave.txt"
                 }
             },
-			
-			
-			
-            "theme":
-            {
-                "dark":
-                {
-                    "gx_accent":
-                    {
+            "theme": {
+                "dark": {
+                    "gx_accent": {
                         "h": 117,
                         "s": 72,
                         "l": 39
                     },
-                    "gx_secondary_base":
-                    {
+                    "gx_secondary_base": {
                         "h": 141,
                         "s": 88,
                         "l": 46
                     }
                 },
-                "light":
-                {
-                    "gx_accent":
-                    {
+                "light": {
+                    "gx_accent": {
                         "h": 126,
                         "s": 70,
                         "l": 16
                     },
-                    "gx_secondary_base":
-                    {
+                    "gx_secondary_base": {
                         "h": 258,
                         "s": 24,
                         "l": 88
                     }
                 }
             },
-			
-			
-			
-            "wallpaper":
-            {
-                "dark":
-                {   
+            "wallpaper": {
+                "dark": {
                     "image": "wallpaper/dank.webm",
-					
                     "text_color": "#FFFFFF",
                     "text_shadow": "#757575"
                 },
-                "light":
-                {
+                "light": {
                     "image": "wallpaper/thedankden.png",
                     "first_frame": "wallpaper/leafs.jpeg",
                     "text_color": "#FFFFFF",
@@ -109,10 +73,7 @@
                 }
             }
         },
-		
-		
         "schema_version": 1
     },
     "version": "1.0"
 }
-
