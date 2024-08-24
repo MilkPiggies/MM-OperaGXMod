@@ -62,7 +62,6 @@
                 },
                 "light": {
                     "image": "wallpaper/thedankden.png",
-                    "first_frame": "wallpaper/leafs.jpeg",
                     "text_color": "#FFFFFF",
                     "text_shadow": "#0B000E"
                 }
