@@ -15,6 +15,20 @@
         "license": "license.txt",
         "payload":
         {
+			"background_music":
+            [
+                "music/BACKGROUNDMUSIC1.mp3",
+			],
+			
+			
+			"keyboard_sounds":
+            {
+                "TYPING_BACKSPACE":
+                [
+                    "keyboard/BACKSPACE.mp3"
+                ],
+			
+			},
             "shaders":
             {
                 "Wave":
@@ -27,6 +41,8 @@
                     "path": "shader/wave.txt"
                 }
             },
+			
+			
             "theme":
             {
                 "dark":
@@ -60,23 +76,27 @@
                     }
                 }
             },
+			
+			
             "wallpaper":
             {
                 "dark":
                 {   
-                    "image": "wallpaper/thedankden.png",
+                    "image": "wallpaper/dank.webm",
                     "text_color": "#FFFFFF",
                     "text_shadow": "#757575"
                 },
                 "light":
                 {
-                    "image": "wallpaper/dank.webm",
+                    "image": "wallpaper/thedankden.png",
                     "first_frame": "wallpaper/leafs.jpeg",
                     "text_color": "#FFFFFF",
                     "text_shadow": "#0B000E"
                 }
             }
         },
+		
+		
         "schema_version": 1
     },
     "version": "1.0"
