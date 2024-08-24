@@ -62,6 +62,7 @@
             "wallpaper": {
                 "dark": {
                     "image": "wallpaper/dank.webm",
+					"first_frame": "wallpaper/leafs.jpeg",
                     "text_color": "#FFFFFF",
                     "text_shadow": "#757575"
                 },
