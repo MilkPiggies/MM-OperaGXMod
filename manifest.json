@@ -12,11 +12,11 @@
         "license": "license.txt",
         "payload": {
             "background_music": [
-                "music/BACKGROUNDMUSIC1.mp3"
+                "sound/BACKGROUNDMUSIC1.mp3"
             ],
             "keyboard_sounds": {
                 "TYPING_BACKSPACE": [
-                    "keyboard/BACKSPACE.mp3"
+                    "sound/BACKSPACE.mp3"
                 ]
             },
             "shaders": {
